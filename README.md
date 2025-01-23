@@ -33,20 +33,27 @@ This retrieves list of payment history
 
 
 POST: https://od1212.pythonanywhere.com/api/v1/payment-history/
+
 This requests a certain payment history
 
 GET: https://od1212.pythonanywhere.com/api/v1/payment-refunds/
+
 This retireves list of payment refunds
 
 
 POST: https://od1212.pythonanywhere.com/api/v1/payment-refunds/
+
 This initiates a payment refund
 
+
 GET: https://od1212.pythonanywhere.com/api/v1/payment-charges/
+
 This retrieves payment charges for transactions
 
 
+
 POST: https://od1212.pythonanywhere.com/api/v1/payment-charges/
+
 This creates a charge (eg. Tax) for a payment.
 
 
