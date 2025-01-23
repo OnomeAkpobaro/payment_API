@@ -87,7 +87,7 @@ class BasePayment(models.Model):
 class Payment(BasePayment):
     """
     Main payment model for processing transactions
-    Includes payment method, last four digits of the card, and card type
+    
     """
 
 
