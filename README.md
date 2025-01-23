@@ -1,4 +1,4 @@
-PAYMENT_API
+PAYMENT API
 
 Payment_API for receiving payment from customers
 Initiate_payment generates a paystack link that allows customers to make payments.
