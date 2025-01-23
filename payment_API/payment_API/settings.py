@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-c_8wb0fw409i4-r=j7*ggskm=v_(u%2y+#+3yie0lafeg_3$0o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -141,7 +141,4 @@ REST_FRAMEWORK = {
 
 
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-STATIC_URL = '/static/'  # URL for static files
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Directory for collectstatic
