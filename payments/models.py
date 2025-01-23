@@ -1,6 +1,6 @@
 from django.db import models
 import logging
-
+#For logging info 
 logger = logging.getLogger(__name__)
 # Create your models here
 
@@ -14,12 +14,15 @@ class BasePayment(models.Model):
     """
         Abstract model for payment operations
     """
+
+    #choices for payment status
     PAYMENT_STATUS = (
         ('PENDING', 'PENDING'),
         ('COMPLETED', 'COMPLETED'),
         ('FAILED', 'FAILED'),
     )
-
+    
+    #model fields
     transaction_id = models.AutoField(primary_key=True)
     customer_name = models.CharField(max_length=55)
     amount = models.DecimalField(max_digits=10, decimal_places=2)
